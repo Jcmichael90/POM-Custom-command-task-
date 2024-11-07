@@ -2,7 +2,7 @@ Cypress.Commands.add('Register',()=>{
     cy.visit('https://www.automationexercise.com/login')
     cy.get('img').should('be.visible')
     cy.get('[data-qa="signup-name"]').type('Michael')
-    cy.get('[data-qa="signup-email"]').type('michaeltemi2023+5@gmail.com')
+    cy.get('[data-qa="signup-email"]').type('michaeltemi2023+6@gmail.com')
     cy.get('[data-qa="signup-button"]').click()
     cy.get('#id_gender1').click({force:true})
     cy.get('[data-qa="password"]').type('Ultimate@90')
